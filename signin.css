@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+}
+body h1{
+    color: aliceblue;
+    text-align: center;
+}
+#sign{
+    align-items: center;
+    background-color: aqua;
+    margin:400px;
+    display: flex;
+    height: 300px;
+    margin-top: 100px;
+    position: absolute;
+    width: 700px;
+
+}
+#sign .vl{
+    border-left: 6px solid green;
+    height: 300px;
+    position: relative;
+    left: 10%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+.signin{
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+    
+    
+}
+.signin span{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+
+}
+.signin h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    border: 2px;
+    border-color: black;
+    border-style: double;
+    padding-bottom: 5px;
+}
+.signup h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    border: 2px;
+    border-color: black;
+    border-style: double;
+    padding-bottom: 5px;
+}
+.signup{
+    text-align: center;
+    margin-left: auto;
+}
+.signin form .name{
+    width: 150px;
+    margin-bottom: 5px;
+}
+.signin form{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.signin form .email{
+    width: 150px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    
+}
+.signin form .pass{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.signup{
+    
+    text-align: center;
+    margin-left: 100px;
+    
+}
+.signup form .name{
+    width: 150px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.signup form{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.signup form .email{
+    width: 150px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    
+}
+.signup form .pass{
+    width: 150px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.signup form .names{
+    width: 150px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.signup form .date{
+    width: 150px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 10px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: burlywood;
+    color: black;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(28, 255, 161);
+}
+.signup form input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.signin form input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
